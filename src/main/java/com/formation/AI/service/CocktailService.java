@@ -17,5 +17,4 @@ public class CocktailService {
     public List<CocktailModel> getAllCocktails() {
         return cocktailRepository.getCocktails();
     }
-
 }
