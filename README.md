@@ -53,4 +53,8 @@ Pour cet exercice vous devez compléter les classes [CocktailController.java](./
 
 ### Resources
 
-Plusieurs resources sont à disposition pour réaliser cet exercice, tout d'abord le fichier [sample-data.json](./src/main/resources/)
+Plusieurs resources sont à disposition pour réaliser cet exercice.
+
+Tout d'abord le fichier [sample-data.json](./src/main/resources/sample-data.json) représente la structure de données renvoyée par l'api. Vous pouvez vous servir de son contenu pour demander à l'IA de vous générer un model.
+
+De plus le fichier application.properties contient déjà 2 endpoints de l'API que vous pouvez utiliser.
