@@ -30,7 +30,7 @@ public class CocktailRepository {
 
         // Make the API call and get the response.
         ResponseEntity<CocktailApiResponse> response = restTemplate.getForEntity(
-                apiUrl + apiUrlAllCocktails,
+                apiUrl,
                 CocktailApiResponse.class);
 
         // Check if the API call was successful.
