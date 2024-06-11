@@ -29,7 +29,8 @@ La fonctionnalité d'auto-complétion fonctionne de manière transparente dans l
 Pour l'expérimenter créez une route /cocktail dans le [CocktailController.java](./src/main/java/com/formation/AI/controller/CocktailController.java).
 
 Commencez par écrire un commentaire décrivant votre besoin comme par exemple : 
-    ```// make a route /cocktail with @GetMapping```
+   
+ ```// make a route /cocktail with @GetMapping```
 
 Il est également possible d'écrire simplement  le début de la méthode et une proposition devrait apparaître en grisé. 
     
@@ -57,4 +58,4 @@ Plusieurs resources sont à disposition pour réaliser cet exercice.
 
 Tout d'abord le fichier [sample-data.json](./src/main/resources/sample-data.json) représente la structure de données renvoyée par l'api. Vous pouvez vous servir de son contenu pour demander à l'IA de vous générer un model.
 
-De plus le fichier application.properties contient déjà 2 endpoints de l'API que vous pouvez utiliser.
+De plus le fichier [application.properties](./src/main/resources/application.properties) contient déjà 2 endpoints de l'API que vous pouvez utiliser.
