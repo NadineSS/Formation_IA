@@ -1,6 +1,7 @@
-<br>
-<br>
-<div align = center>
+
+
+
+# Formation_IA
 <a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2FNadineSS%2FFormation_IA">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.idx.dev/btn/open_dark_32.svg">
@@ -8,11 +9,8 @@
     <img height="32" alt="Open in IDX" src="https://cdn.idx.dev/btn/open_purple_32.svg">
   </picture>
 </a>
-</div>
 <br>
 <br>
-
-# Formation_IA
 
 L’intelligence artificielle générative a déjà un impact significatif sur le développement informatique. Elle intervient dans des domaines tels que la génération de code, l’écriture de documentation, la création de cas de test et l’optimisation du code.
 
