@@ -39,7 +39,7 @@ Pour accepter une proposition faite TAB.
 
 ![autocomplete](./src/main/resources/autocomplete.png)
 
-Vous pouvez tester la route en exécutant la commande :
+Pour tester que la route fonctionne, vous pouvez vous contenter de retourner un String vide et ainsi lancer le projet et exécuter la commande :
 
 ```shell
 curl http://localhost:8888/cocktail
@@ -63,15 +63,18 @@ La deuxième solution est l'accès à un chat plus classique en cliquant en haut
 
 ![gemini_chat](./src/main/resources/gemini_chat.png)
 
-Pour cet exercice, vous devez compléter les classes [CocktailController.java](./src/main/java/com/formation/AI/controller/CocktailController.java), [CocktailService.java](./src/main/java/com/formation/AI/service/CocktailService.java) [CocktailRepository.java](./src/main/java/com/formation/AI/repository/CocktailRepository.java) et [CocktailModel.java](./src/main/java/com/formation/AI/model/CocktailModel.java) afin d'appeler la route getAllCoktails de l'API.
+Pour cet exercice, vous devez compléter les classes [CocktailRepository.java](./src/main/java/com/formation/AI/repository/CocktailRepository.java) et [CocktailModel.java](./src/main/java/com/formation/AI/model/CocktailModel.java) afin d'appeler la route getAllCoktails de l'API.
 
 ### Ressources
 
 Plusieurs ressources sont à disposition pour réaliser cet exercice.
 
 Tout d'abord, le fichier [sample-data.json](./src/main/resources/sample-data.json) représente la structure de données renvoyée par l'api. Vous pouvez vous servir de son contenu pour demander à l'IA de vous générer un model.
+Il peut être pertinent de prendre le temps de spécifier à l'IA le résultat exact souhaité. Par exemple :
+``Pour le fichier sample-data.json, générer une classe CocktailModelavec tous les paramètres de la réponse JSON et annoter cette classe avec @Data de la librairie lombok.`` 
 
 De plus, le fichier [application.properties](./src/main/resources/application.properties) contient déjà 2 endpoints de l'API que vous pouvez utiliser.
+Pour utiliser ces endpoints il est nécessaire de concaténer api.url avec l'endpoint de son choix.
 
 ### 03 - Commandes intégrées
 
